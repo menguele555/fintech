@@ -1,0 +1,34 @@
+* {
+   font-family: 'Lato', sans-serif;
+}
+
+.login {
+   padding: 32px 0;
+   height: 100vh;
+   background: rgb(238,20,91);
+   background: -moz-linear-gradient(180deg, rgba(238,20,91,1) 0%, rgba(0,0,0,1) 100%);
+   background: -webkit-linear-gradient(180deg, rgba(238,20,91,1) 0%, rgba(0,0,0,1) 100%);
+   background: linear-gradient(180deg, rgba(238,20,91,1) 0%, rgba(0,0,0,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ee145b",endColorstr="#000000",GradientType=1);
+}
+
+.logo-fiap {
+   max-width: 180px;
+}
+
+.logo h1 {
+   font-size: 64px;
+   color: #fff;
+}
+
+.logo .green {
+   color: #2CFF86;
+}
+
+#formulario-login {
+   padding: 0 32px;
+   max-width: 580px;
+   margin: 0 auto;
+   color: #fff;
+}
+

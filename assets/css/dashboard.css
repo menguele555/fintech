@@ -1,0 +1,108 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+button {
+    border: 0;
+    background: transparent;
+}
+
+header, .valor-conta {
+    background-color: #b0ffd1;
+}
+
+header {
+    padding: 16px 0;
+}
+
+header i {
+    font-size: 22px;
+}
+
+.botao-menu {
+    color: #ED145B;
+}
+
+.botao-menu i {
+    font-size: 28px;
+}
+
+.logo-fiap {
+    width: 38px;  
+    height: auto;
+}
+
+.valor-conta {
+    padding-bottom: 16px;
+}
+
+.valor-conta h4 {
+    color: #ED145B;
+}
+
+.valor-conta h3 {
+    color: #0a6631;
+    font-weight: 700;
+}
+
+.opcao img {
+    width: 30px;
+    height: auto;
+ }
+ 
+ .opcao a {
+    width: 55px;
+    height: 55px;
+    background-color: #c4c4c4;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all .3s;
+ }
+ .opcao a:hover {
+     transform: scale(1.1);
+     background-color: #ED145B;
+ }
+
+ .opcao p {
+     font-size: 12px;
+     margin-top: 8px;
+ }
+
+ .opcoes {
+    margin-top: 20px;
+ }
+
+ @media (min-width: 768px) {
+    .logo-fiap {
+        width: 68px;
+    }
+    .botao-menu i {
+        font-size: 50px;
+    }
+    header i {
+        font-size: 28px;
+    }
+    .valor-conta h4 {
+        font-size: 40px;
+    }
+    .valor-conta h3 {
+        font-size: 40px;
+    }
+    .opcao a {
+        width: 80px;
+        height: 80px;
+    }
+    .opcao img {
+        width: 40px;
+    }
+    .opcao p {
+        font-size: 16px;
+    }
+ }

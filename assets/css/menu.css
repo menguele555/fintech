@@ -1,0 +1,60 @@
+main {
+    background-color: #C4C4C4;
+    min-height: 100vh;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.icone-camera {
+    border: 0;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: #EE145B;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.foto {
+    position: relative;
+    width: 120px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 44px;
+}
+
+.menu img {
+    width: 30px;
+    height: auto;
+    margin-right: 27px;
+}
+
+.menu a {
+    display: block;
+    margin-bottom: 28px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;  
+    cursor: pointer;
+}
+
+.menu a:hover {
+    color: #EE145B;
+}
+
+.fechar img{
+    width: 24px;
+    height: auto;
+}
+
+.fechar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
